@@ -90,3 +90,31 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+
+.ex-10-icon {
+    animation: spinner1 2s infinite reverse linear;
+}
+
+@keyframes spinner1 {
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+/* Esercizio 10 */
+
+.ex-11-icon:hover {
+    animation: spinner2 1.5s linear;
+}
+
+@keyframes spinner2 {
+    90% {
+    transform: rotate(270deg);
+    }
+    100% {
+    transform: rotate(0deg);
+    }
+}
+
